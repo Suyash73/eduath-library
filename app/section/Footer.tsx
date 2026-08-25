@@ -15,12 +15,13 @@ export default function Footer() {
       <div className="mx-auto grid max-w-6xl gap-10 sm:grid-cols-3">
         <div>
           <Image
-            src="/logo-nav.png"
-            alt="Edupath logo"
-            width={140}
-            height={97}
-            className="h-12 w-auto brightness-0 invert"
-          />
+                      src="/logo-nav.png"
+                      alt="Edupath logo"
+                      width={140}
+                      height={97}
+                      className="h-10 w-auto"
+                      priority
+                    />
           <p className="mt-4 max-w-xs text-sm leading-relaxed">
             A dedicated self-study space in Vaishali &mdash; quiet,
             comfortable and reliable, every day.

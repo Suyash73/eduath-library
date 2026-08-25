@@ -1,15 +1,16 @@
 import { siteConfig } from "@/lib/siteConfig";
+import Image from "next/image";
 
 function HeroImagePlaceholder() {
   return (
-    <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl bg-gradient-to-br from-navy to-maroon-dark shadow-xl md:aspect-[16/11]">
-      <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 text-center text-cream/90">
-        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
-        </svg>
-        <p className="font-display text-sm tracking-wide">Real library photo coming soon</p>
-      </div>
+    <div className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl shadow-xl md:aspect-[16/11]">
+      <Image
+        src="/hero-library.jpeg"
+        alt="Edupath Library study space"
+        fill
+        className="object-cover"
+        priority
+      />
     </div>
   );
 }

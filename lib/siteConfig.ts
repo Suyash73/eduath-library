@@ -6,8 +6,8 @@ export const siteConfig = {
   tagline: "A Quiet Place to Study.",
   subTagline: "A better environment to focus.",
   location: {
-    line: "Atrium Floor, Shopprix Mall, Vaishali, Ghaziabad", 
-    mapsUrl: "https://maps.app.goo.gl/6WB5Vn6t1pyuPTNX8", 
+    line: "Shop no 08-09, Atrium floor Shopprix mall , sector 5 , vaishali, ghaziabad, 201019", 
+    mapsUrl: "https://maps.app.goo.gl/94nwa677f3K4qwip7", 
   },
   hours: {
     open: "7:00 AM",
