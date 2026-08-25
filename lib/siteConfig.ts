@@ -14,7 +14,7 @@ export const siteConfig = {
     close: "3:30 PM",
   },
   contact: {
-    phoneDisplay: "+91 80771 13006",
+    phoneDisplay: "+91 87916 13006",
     phoneHref: "tel:+918791613006",
     whatsappHref: "https://wa.me/918077113006",
   },
