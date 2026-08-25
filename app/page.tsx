@@ -15,10 +15,10 @@ export default function Home() {
       <Header />
       <HeroSection />
       <AboutSection />
+      <GallerySection />
       <FacilitiesSection />
       <LocationSection />
       <MembershipSection />
-      <GallerySection />
       <FaqSection />
       <CtaSection />
       <Footer />

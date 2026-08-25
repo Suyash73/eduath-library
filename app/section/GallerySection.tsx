@@ -4,8 +4,10 @@ import { useRef } from "react";
 import Image from "next/image";
 
 const shots = [
-  { label: "Study Room", caption: "Wide view of the full study space", image: "/gallery-whiteboards.jpeg" },
+  { label: "Study Room 1", caption: "Wide view of the full study space", image: "/gallery-whiteboards.jpeg" },
   { label: "Study Room 2", caption: "Seating arranged for focused study", image: "/edulib_8.jpeg" },
+  { label: "Study Room 3", caption: "A calm corner of the study floor", image: "/edulib_11.jpeg" },
+  { label: "Study Room 4", caption: "Rows of desks set up for silent study", image: "/edulib_12.jpeg" },
   { label: "Desk & Charging", caption: "Seating, lighting and charging points", image: "/gallery-study-desk.jpeg" },
   { label: "Whiteboards", caption: "Space for personal practice", image: "/edulib_4.jpeg" },
   { label: "Entrance", caption: "Shopprix Mall, Vaishali", image: "/gallery-desk.jpeg" },
